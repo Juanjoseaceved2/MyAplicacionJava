@@ -1,0 +1,30 @@
+body {
+    background-image: url('/logoAnimado8.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.glass {
+    border-radius: 3rem;
+    border: solid 0.01rem rgba(128, 128, 128, 0.3);
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+.glass ._btn {
+    background-color: #CC530B;
+    color: white;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.glass ._btn:hover {
+    background-color: #10DD4A;
+    color: black;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
