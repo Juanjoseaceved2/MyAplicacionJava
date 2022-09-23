@@ -1,17 +1,17 @@
 package com.co.udea.mintic.mvc.services;
 
 import com.co.udea.mintic.mvc.entities.User;
-import com.co.udea.mintic.mvc.repository.UserRepositorio;
+import com.co.udea.mintic.mvc.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
 @Service
 public class UserService {
-    private UserRepositorio repository;
+    private UserRepository repository;
 
 
-    public UserService(UserRepositorio repository) {
+    public UserService(UserRepository repository) {
         this.repository = repository;
     }
 

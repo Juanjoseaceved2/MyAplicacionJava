@@ -1,9 +1,8 @@
 package com.co.udea.mintic.mvc.services;
 
 
-import com.co.udea.mintic.mvc.entities.ListaPersonas;
 import com.co.udea.mintic.mvc.entities.Persona;
-import com.co.udea.mintic.mvc.repository.PersonaRepositorio;
+import com.co.udea.mintic.mvc.repository.PersonaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,12 +10,12 @@ import java.util.List;
 @Service
 public class PersonaService {
     //Creación de objetos
-    private PersonaRepositorio repository;
+    private PersonaRepository repository;
     //Creación de objetos
 
 
     //Constructor
-    public PersonaService(PersonaRepositorio repository){
+    public PersonaService(PersonaRepository repository){
         this.repository = repository;
     }
     //Constructor
